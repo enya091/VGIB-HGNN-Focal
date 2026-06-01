@@ -1,0 +1,23 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.env
+.venv/
+venv/
+
+# data and outputs
+data/*.csv
+data/*.xlsx
+data/*.xls
+data/*.parquet
+outputs/*
+!outputs/.gitkeep
+
+# model checkpoints
+*.pt
+*.pth
+*.ckpt
+
+# compressed result archives
+*.zip

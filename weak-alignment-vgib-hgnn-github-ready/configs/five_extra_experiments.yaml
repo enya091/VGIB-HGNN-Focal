@@ -1,0 +1,8 @@
+# Reviewer-facing additional experiments and figures
+inherits: configs/main_real_cohort.yaml
+output_dir: outputs/five_extra_experiments
+run_recall_constrained: true
+run_topology_controls: true
+run_beta_sensitivity: true
+run_inductive_insertion: true
+run_stronger_baselines: true

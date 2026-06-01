@@ -1,0 +1,15 @@
+# RQ4 synthetic benchmark configuration
+output_dir: outputs/synthetic_second_order
+top_k_species: 50
+min_prevalence: 0.02
+n_patients_min: 800
+seeds: [11, 22, 33, 44, 55, 66, 77]
+
+risk_rate: 0.24
+relational_positive_fraction: 0.64
+fixed_degree: 6
+anchor_fraction: 0.23
+target_low_brain_quantile: 0.62
+
+beta_grid: [0.0, 0.000001, 0.00001, 0.0001, 0.0005, 0.001]
+threshold_policy: max_risk_f1

@@ -1,0 +1,15 @@
+# Qualitative t-SNE visualization configuration
+data_path: data/data.csv
+micro_path: data/micro.csv
+brain_path: data/all_brain_result_1(3).csv
+out_dir: outputs/tsne_visualization
+
+n_species: 50
+edge_rep: log1p
+hidden_dim: 64
+latent_dim: 32
+beta: 0.0005
+gamma: 1.0
+epochs: 260
+perplexity: 25
+tsne_n_iter: 1500

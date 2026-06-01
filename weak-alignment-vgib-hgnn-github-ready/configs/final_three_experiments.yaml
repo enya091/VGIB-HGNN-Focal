@@ -1,0 +1,6 @@
+# Supplementary experiments: gated/auxiliary fusion, nested beta, boundary subgroup
+inherits: configs/main_real_cohort.yaml
+output_dir: outputs/final_three_experiments
+run_gated_fusion: true
+run_nested_beta: true
+run_boundary_subgroups: true
